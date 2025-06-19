@@ -9,6 +9,16 @@
 
 while true; do
   clear
+  printf "\n"
+  printf "========================================\n"
+  printf "|                                      |\n"
+  printf "|    /\\/\\ 0 /\\/ 1 7 0 R - 1 0 1 by     |\n"
+  printf "|                                      |\n"
+  printf "|    3MM4 - J3551C4 - 81L3L - 573V3    |\n"
+  printf "|                                      |\n"
+  printf "========================================\n"
+  printf "\n"
+
   echo "=========================================="
   echo "Linux Monitoring Toolkit"
   echo "=========================================="

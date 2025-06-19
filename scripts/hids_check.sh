@@ -32,12 +32,12 @@ for file in "${!files_to_watch[@]}"; do
   if [[ -f "$HASH_FILE" ]]; then
     OLD_HASH=$(cat "$HASH_FILE")
     if [[ "$HASH" != "$OLD_HASH" ]]; then
-      echo "WARNING: $file has changed!" >> "$ALERT_FILE"           # File has changed
-                                                                    # Le fichier a été modifié
+      echo "WARNING: $file has changed!" >> "$ALERT_FILE" # File has changed
+                                                          # Le fichier a été modifié
     fi
   else
-    echo "$HASH" > "$HASH_FILE"                                      # Save initial hash if not present
-                                                                     # Enregistre l'empreinte si absente
+    echo "$HASH" > "$HASH_FILE" # Save initial hash if not present
+                                # Enregistre l'empreinte si absente
   fi
 done
 
@@ -53,12 +53,12 @@ USER_LIST_FILE="scripts/.user_list.txt"
 if [[ -f "$USER_LIST_FILE" ]]; then
   NEW_USERS=$(comm -13 <(sort "$USER_LIST_FILE") <(echo "$CURRENT_USERS" | sort))
   if [[ -n "$NEW_USERS" ]]; then
-    echo "New user(s) detected: $NEW_USERS" >> "$ALERT_FILE"      # New users detected
-                                                                  # Nouveaux utilisateurs détectés
+    echo "New user(s) detected: $NEW_USERS" >> "$ALERT_FILE" # New users detected
+                                                             # Nouveaux utilisateurs détectés
   fi
 else
-  echo "$CURRENT_USERS" > "$USER_LIST_FILE"                          # Save initial list of users
-                                                                     # Enregistre la liste initiale
+  echo "$CURRENT_USERS" > "$USER_LIST_FILE" # Save initial list of users
+                                            # Enregistre la liste initiale
 fi
 
 # -----------------------------------------
@@ -73,12 +73,12 @@ CURRENT_PORTS=$(ss -tuln | awk '/LISTEN/ {print $5}' | sort)
 if [[ -f "$PORTS_FILE" ]]; then
   NEW_PORTS=$(comm -13 "$PORTS_FILE" <(echo "$CURRENT_PORTS"))
   if [[ -n "$NEW_PORTS" ]]; then
-    echo "New open port(s) detected:" >> "$ALERT_FILE"            # New open ports found
-    echo "$NEW_PORTS" >> "$ALERT_FILE"                            # Nouveaux ports ouverts détectés
+    echo "New open port(s) detected:" >> "$ALERT_FILE" # New open ports found
+    echo "$NEW_PORTS" >> "$ALERT_FILE"                 # Nouveaux ports ouverts détectés
   fi
 else
-  echo "$CURRENT_PORTS" > "$PORTS_FILE"                              # Save initial list of ports
-                                                                     # Enregistre la liste initiale
+  echo "$CURRENT_PORTS" > "$PORTS_FILE" # Save initial list of ports
+                                        # Enregistre la liste initiale
 fi
 
 # ---------------------------------------

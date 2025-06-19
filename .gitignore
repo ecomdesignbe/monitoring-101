@@ -1,0 +1,4 @@
+# Ignorer les dossiers d'alertes, de sauvegarde et de logs
+alerts/
+backup/
+log/

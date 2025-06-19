@@ -17,10 +17,12 @@ while true; do
   echo "2) Monitor Network Activity"
   echo "3) Send Load Alert (manual check)"
   echo "4) Setup Cron Jobs (automate monitoring)"
-  echo "5) Exit"
+  echo "5) Run HIDS Check (detect suspicious activity)"
+  echo "6) Stop Cron Jobs (disable automation)"
+  echo "7) Exit"
   echo "------------------------------------------"
 
-  read -p "Your choice (1-5): " choice
+  read -p "Your choice (1-7): " choice
 
   case $choice in
     1)
@@ -44,11 +46,21 @@ while true; do
       read -p "Press Enter to return to the menu..."
       ;;
     5)
+      echo "Launching hids_check.sh..."
+      bash scripts/hids_check.sh
+      read -p "Press Enter to return to the menu..."
+      ;;
+    6)
+      echo "Stopping all monitoring cron jobs..."
+      bash scripts/stop_cron.sh
+      read -p "Press Enter to return to the menu..."
+      ;;
+    7)
       echo "Goodbye!"
       exit 0
       ;;
     *)
-      echo "❗ Invalid option. Please choose between 1 and 5."
+      echo "❗ Invalid option. Please choose between 1 and 7."
       sleep 2
       ;;
   esac

@@ -24,8 +24,8 @@ while true; do
 
   case $choice in
     1)
-      echo "Launching monitor_user.sh..."
-      bash scripts/monitor_user.sh
+      echo "Launching monitor_users.sh..."
+      bash scripts/monitor_users.sh
       read -p "Press Enter to return to the menu..."
       ;;
     2)
@@ -34,8 +34,8 @@ while true; do
       read -p "Press Enter to return to the menu..."
       ;;
     3)
-      echo "Launching send_alert.sh..."
-      bash scripts/send_alert.sh
+      echo "Launching send_alerts.sh..."
+      bash scripts/send_alerts.sh
       read -p "Press Enter to return to the menu..."
       ;;
     4)

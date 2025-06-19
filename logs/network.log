@@ -1,0 +1,460 @@
+Starting network monitoring...
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+Starting network monitoring...
+Starting network monitoring...
+Starting network monitoring...
+==============================
+Active network connections:
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+Starting network monitoring...
+==============================
+Active network connections:
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+------------------------------
+Open listening ports:
+sudo: il est nécessaire de saisir un mot de passe
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: il est nécessaire de saisir un mot de passe
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+------------------------------
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+sudo: il est nécessaire de saisir un mot de passe
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Network traffic statistics:
+------------------------------
+Open listening ports:
+(Using ifstat for 5 seconds)
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: il est nécessaire de saisir un mot de passe
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+sudo: il est nécessaire de saisir un mot de passe
+------------------------------
+Open listening ports:
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+sudo: il est nécessaire de saisir un mot de passe
+------------------------------
+Open listening ports:
+------------------------------
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: il est nécessaire de saisir un mot de passe
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+Netid State     Recv-Q Send-Q    Local Address:Port    Peer Address:PortProcess                                    
+udp   UNCONN    0      0               0.0.0.0:59827        0.0.0.0:*                                              
+udp   UNCONN    0      0            127.0.0.54:53           0.0.0.0:*                                              
+udp   UNCONN    0      0         127.0.0.53%lo:53           0.0.0.0:*                                              
+udp   ESTAB     0      0      10.0.2.15%enp0s3:68          10.0.2.2:67                                             
+udp   ESTAB     0      0             10.0.2.15:57856  142.250.178.3:443  users:(("chrome",pid=6868,fd=35))         
+udp   UNCONN    0      0               0.0.0.0:5353         0.0.0.0:*                                              
+udp   UNCONN    0      0                  [::]:5353            [::]:*                                              
+udp   UNCONN    0      0                  [::]:50655           [::]:*                                              
+tcp   LISTEN    0      4096          127.0.0.1:631          0.0.0.0:*                                              
+tcp   LISTEN    0      4096      127.0.0.53%lo:53           0.0.0.0:*                                              
+tcp   LISTEN    0      4096         127.0.0.54:53           0.0.0.0:*                                              
+tcp   LISTEN    0      511           127.0.0.1:39525        0.0.0.0:*    users:(("github-desktop",pid=10348,fd=42))
+tcp   ESTAB     0      0             10.0.2.15:36908 52.182.143.214:443  users:(("code",pid=24713,fd=23))          
+tcp   ESTAB     0      0             10.0.2.15:40730 108.177.15.188:5228 users:(("chrome",pid=6868,fd=16))         
+tcp   ESTAB     0      0             10.0.2.15:55534    13.69.68.64:443  users:(("code",pid=24713,fd=22))          
+tcp   ESTAB     0      0             10.0.2.15:43162    2.18.121.11:443  users:(("chrome",pid=6868,fd=34))         
+tcp   ESTAB     0      0             10.0.2.15:36334  140.82.112.26:443  users:(("chrome",pid=6868,fd=31))         
+tcp   ESTAB     0      0             10.0.2.15:60302   157.90.91.71:443  users:(("chrome",pid=6868,fd=24))         
+tcp   ESTAB     0      0             10.0.2.15:37944  140.82.113.25:443  users:(("github-desktop",pid=10333,fd=26))
+tcp   TIME-WAIT 0      0             10.0.2.15:55918  13.107.253.67:443                                            
+tcp   ESTAB     0      0             10.0.2.15:39896  140.82.112.21:443  users:(("chrome",pid=6868,fd=18))         
+tcp   LISTEN    0      4096              [::1]:631             [::]:*                                              
+------------------------------
+Open listening ports:
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: il est nécessaire de saisir un mot de passe
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: il est nécessaire de saisir un mot de passe
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: ------------------------------
+Network traffic statistics:
+il est nécessaire de saisir un mot de passe
+(Using ifstat for 5 seconds)
+------------------------------
+Network traffic statistics:
+(Using ifstat for 5 seconds)
+      enp0s3      
+ KB/s in  KB/s out
+    5.40      4.10
+      enp0s3      
+ KB/s in  KB/s out
+    5.40      4.10
+      enp0s3      
+ KB/s in  KB/s out
+    5.39      4.09
+      enp0s3      
+ KB/s in  KB/s out
+    5.39      4.09
+      enp0s3      
+ KB/s in  KB/s out
+    5.38      4.09
+      enp0s3      
+ KB/s in  KB/s out
+    5.40      4.10
+      enp0s3      
+ KB/s in  KB/s out
+    5.40      4.10
+      enp0s3      
+ KB/s in  KB/s out
+    5.40      4.10
+      enp0s3      
+ KB/s in  KB/s out
+    5.39      4.09
+      enp0s3      
+ KB/s in  KB/s out
+    5.38      4.08
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.06      0.06
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.
+    0.00      0.00
+    0.00      0.00
+------------------------------
+------------------------------
+Top remote IP addresses (established connections):
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+      9 
+      1 Peer
+------------------------------
+------------------------------
+Network monitoring finished.
+Network monitoring finished.
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+    0.00      0.00
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+      9 
+      1 Peer
+Network monitoring finished.
+------------------------------
+Network monitoring finished.
+    0.00      0.00
+------------------------------
+Top remote IP addresses (established connections):
+      9 
+      1 Peer
+------------------------------
+Network monitoring finished.

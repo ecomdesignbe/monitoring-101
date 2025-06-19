@@ -17,10 +17,16 @@ USER_SCRIPT_PATH="$SCRIPT_DIR/monitor_user.sh"
 NETWORK_SCRIPT_PATH="$SCRIPT_DIR/monitor_network.sh"
 ALERT_SCRIPT_PATH="$SCRIPT_DIR/send_alert.sh"
 LOG_PATH="$SCRIPT_DIR/../logs"
+BACKUP_PATH="$SCRIPT_DIR/../backup"
 
-# Create log directory if it doesn’t exist
+# Create log & backup directory if it doesn’t exist
 # Créer le dossier de logs s’il n’existe pas
 mkdir -p "$LOG_PATH"
+mkdir -p "$BACKUP_PATH"
+
+# Create timestamped backup of current crontab
+TIMESTAMP=$(date +%Y%m%d_%H%M%S)
+CRON_BACKUP_FILE="$BACKUP_PATH/cron_backup_$TIMESTAMP.bak"
 
 # Backup current crontab
 # Sauvegarder la crontab actuelle

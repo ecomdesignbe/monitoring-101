@@ -28,9 +28,9 @@ mkdir -p "$BACKUP_PATH"
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 CRON_BACKUP_FILE="$BACKUP_PATH/cron_backup_$TIMESTAMP.bak"
 
-# Backup current crontab
-# Sauvegarder la crontab actuelle
-crontab -l > cron_backup_$(date +%s).bak 2>/dev/null
+# Backup crontab (if any)
+crontab -l > "$CRON_BACKUP_FILE" 2>/dev/null
+echo "✅ Crontab backed up to: $CRON_BACKUP_FILE"
 
 # Write new cron tasks (every 5 minutes)
 # Ajouter les nouvelles tâches cron (toutes les 5 minutes)

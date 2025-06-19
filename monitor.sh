@@ -37,12 +37,12 @@ while true; do
       read -p "Choose an action (1-6): " daemon_choice
 
       case $daemon_choice in
-        1) bash scripts/monitoring_daemon_V4.sh start ;;
-        2) bash scripts/monitoring_daemon_V4.sh stop ;;
-        3) bash scripts/monitoring_daemon_V4.sh restart ;;
-        4) bash scripts/monitoring_daemon_V4.sh status ;;
-        5) bash scripts/monitoring_daemon_V4.sh logs ;;
-        6) bash scripts/monitoring_daemon_V4.sh test ;;
+        1) sudo bash scripts/monitoring_daemon_V4.sh start ;;
+        2) sudo bash scripts/monitoring_daemon_V4.sh stop ;;
+        3) sudo bash scripts/monitoring_daemon_V4.sh restart ;;
+        4) sudo bash scripts/monitoring_daemon_V4.sh status ;;
+        5) sudo bash scripts/monitoring_daemon_V4.sh logs ;;
+        6) sudo bash scripts/monitoring_daemon_V4.sh test ;;
         *) echo "❗ Invalid daemon action." ;;
       esac
 

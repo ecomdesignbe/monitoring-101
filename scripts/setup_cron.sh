@@ -9,11 +9,14 @@
 #     vos scripts automatiquement toutes les X minutes.
 # ==========================================================
 
-# Define script paths (adjust if needed)
-USER_SCRIPT_PATH="$HOME/monitoring-101/scripts/monitor_user.sh"
-NETWORK_SCRIPT_PATH="$HOME/monitoring-101/scripts/monitor_network.sh"
-ALERT_SCRIPT_PATH="$HOME/monitoring-101/scripts/send_alert.sh"
-LOG_PATH="$HOME/monitoring-101/logs"
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Define relative paths
+USER_SCRIPT_PATH="$SCRIPT_DIR/monitor_user.sh"
+NETWORK_SCRIPT_PATH="$SCRIPT_DIR/monitor_network.sh"
+ALERT_SCRIPT_PATH="$SCRIPT_DIR/send_alert.sh"
+LOG_PATH="$SCRIPT_DIR/../logs"
 
 # Create log directory if it doesn’t exist
 # Créer le dossier de logs s’il n’existe pas

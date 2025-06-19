@@ -9,14 +9,11 @@
 #     vos scripts automatiquement toutes les X minutes.
 # ==========================================================
 
-# Get the directory where this script is located
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# Define relative paths
-USER_SCRIPT_PATH="$SCRIPT_DIR/monitor_user.sh"
-NETWORK_SCRIPT_PATH="$SCRIPT_DIR/monitor_network.sh"
-ALERT_SCRIPT_PATH="$SCRIPT_DIR/send_alert.sh"
-LOG_PATH="$SCRIPT_DIR/../logs"
+# Define script paths (adjust if needed)
+USER_SCRIPT_PATH="$HOME/monitoring-101/scripts/monitor_user.sh"
+NETWORK_SCRIPT_PATH="$HOME/monitoring-101/scripts/monitor_network.sh"
+ALERT_SCRIPT_PATH="$HOME/monitoring-101/scripts/send_alert.sh"
+LOG_PATH="$HOME/monitoring-101/logs"
 
 # Create log directory if it doesn’t exist
 # Créer le dossier de logs s’il n’existe pas
@@ -35,4 +32,4 @@ crontab -l > cron_backup_$(date +%s).bak 2>/dev/null
   echo "*/5 * * * * bash $ALERT_SCRIPT_PATH >> $LOG_PATH/alerts.log 2>&1"
 ) | crontab -
 
-echo "Cron jobs added! Monitoring scripts will run every 5 minutes."
+echo "✅ Cron jobs added! Monitoring scripts will run every 5 minutes."

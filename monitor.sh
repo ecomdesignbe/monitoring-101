@@ -13,6 +13,7 @@ while true; do
   echo "Linux Monitoring Toolkit"
   echo "=========================================="
   echo "Please choose an option:"
+  echo "0) Monitoring Daemon v4"
   echo "1) Monitor User Activity"
   echo "2) Monitor Network Activity"
   echo "3) Send Load Alert (manual check)"
@@ -25,6 +26,28 @@ while true; do
   read -p "Your choice (1-7): " choice
 
   case $choice in
+    0)
+      echo "Monitoring Daemon v4 - Select an action:"
+      echo "  1) start   - Start the daemon"
+      echo "  2) stop    - Stop the daemon"
+      echo "  3) restart - Restart the daemon"
+      echo "  4) status  - Show status"
+      echo "  5) logs    - Show recent logs"
+      echo "  6) test    - Run one monitoring cycle"
+      read -p "Choose an action (1-6): " daemon_choice
+
+      case $daemon_choice in
+        1) bash scripts/monitoring_daemon_V4.sh start ;;
+        2) bash scripts/monitoring_daemon_V4.sh stop ;;
+        3) bash scripts/monitoring_daemon_V4.sh restart ;;
+        4) bash scripts/monitoring_daemon_V4.sh status ;;
+        5) bash scripts/monitoring_daemon_V4.sh logs ;;
+        6) bash scripts/monitoring_daemon_V4.sh test ;;
+        *) echo "❗ Invalid daemon action." ;;
+      esac
+
+      read -p "Press Enter to return to the menu..."
+      ;;
     1)
       echo "Launching monitor_users.sh..."
       bash scripts/monitor_users.sh

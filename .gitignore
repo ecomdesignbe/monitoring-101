@@ -9,3 +9,8 @@ script/.open_ports.txt
 script/.passwd.hash
 script/.shadow.hash
 script/.user_list.txt
+
+logs/alerts.log
+logs/hids.logs
+logs/network.logs
+logs/user.logs

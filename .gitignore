@@ -1,16 +1,13 @@
-# Ignorer les dossiers d'alertes, de sauvegarde et de logs
 alerts/
 backup/
 log/
-
-# Ignorer certains fichiers dans le dossier script/
-script/.bash.hash
-script/.open_ports.txt
-script/.passwd.hash
-script/.shadow.hash
-script/.user_list.txt
 
 logs/alerts.log
 logs/hids.logs
 logs/network.logs
 logs/user.logs
+scripts/.bash.hash
+scripts/.open_ports.txt
+scripts/.shadow.hash
+scripts/.passwd.hash
+scripts/.user_list.txt

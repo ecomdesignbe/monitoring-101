@@ -23,7 +23,7 @@ while true; do
   echo "7) Exit"
   echo "------------------------------------------"
 
-  read -p "Your choice (1-7): " choice
+  read -p "Your choice (0-7): " choice
 
   case $choice in
     0)
